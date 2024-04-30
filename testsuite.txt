@@ -1,0 +1,465 @@
+Language: Nivkh
+Language code: niv
+Lines: orth orth-seg gloss translat
+Author: Sabrina Sun
+Date: February 1, 2024
+Source a: Nedjalkov, V.P, et al. A Syntax of the Nivkh Language: The Amur Dialect. John Benjamins Publishing Company, 2013.
+Source b: https://tuhat.helsinki.fi/ws/portalfiles/portal/173015900/Negation_in_NivkhCORR_FINAL_PRE_REVIEW.pdf
+
+#### LAB7
+
+### MT 
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order} # change to plural if poss
+Qangu qod1
+Qan-gu q‘o-d̦.
+dog-PL sleep-ind
+'Dogs sleep.'
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order} 
+Qangu tu tud1gu
+Qan-gu t‘u+t‘u-d̦-gu
+dog-PL sledge+pursue-ind-pl 
+'Dogs chase sledges.'
+# UNGRAMMATICAL
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order} 
+N1i t1i tud1 
+ñi ţ‘i+t‘u-d̦
+I you+pursue-ind
+'I pursue you'
+# wrong. pg 13 
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {} 
+t1i qangu tu tugud1 heyad1
+ţ‘i qan-gu t‘u+t‘u-gu-d̦+heʁ-d̦
+You dog-PL sledge+pursue-pl-NML+know-ind
+'You know dogs chase sledges.' 
+# 213
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {} 
+n1i t1i qangu tu tugud1 heyad1 hagut eyazd1
+ñi ţ‘i qan-gu t‘u+t‘u-gu-d̦+heʁ-d̦ ha-gu-t eʁz-d̦
+I you dog-PL sledge+pursue-pl-NML+know-ind be.so-caus-conv:nar:1sg think-IND
+'I think you know (that) dogs chase sledges.' 
+# 193 
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {} 
+n1i t1i qangu tu tugud1 heyad1lu jotd1
+ñi ţ‘i qan-gu t‘u+t‘u-gu-d̦+heʁ-d̦-lu+joţ-d̦.
+I you dog-PL sledge+pursue-pl-NML+know-NML-INDEF+ask-IND
+'I ask (whether) you know that dogs chase cars.'
+# 216
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coordination} 
+qotrxo qanguxo tu tud1gu
+qot'r-xo qangu-xo t‘u+t‘u-d̦-gu
+bears-com:pl dog-com:PL sledge+pursue-ind-pl
+'Bears and dogs pursue sledges.' 
+# 163 & 58
+
+
+### NEGATION
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {negation}
+Te1d1 te1f hadox1 qaud1
+Təd̦ təf ha-doχ q‘au-d̦.
+this house be.so-sup not.be-ind
+‘This is not a house.’
+# 37
+# original sent had -foc marker '-ra' at end. 
+# however, source b:4 and a:37 indicate leaving '-ra' off is acceptable just dispreferred 
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation}
+Te1d1 te1f hadax1 qaud1
+Təd̦ təf ha-aχ q‘au-d̦.
+this house be.so-dat/acc not.be-ind
+‘This is not a house.’
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation}
+Te1d1 te1f qaud1 hadox1 
+Təd̦ təf q‘au-d̦ ha-doχ
+this house not.be-ind be.so-sup 
+‘This is not a house.’
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {negation}
+Te1d1 n1ivx hadox1 qaud1
+Təd̦ ñivx ha-doχ q‘au-d̦.
+this man be.so-sup not.be-ind
+‘This is not a man.’
+# 38
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation}
+Te1d1 n1ivx haax1 qaud1
+Təd̦ ñivx ha-aχ q‘au-d̦.
+this man be.so-dat/acc not.be-ind
+‘This is not a man.’
+# 38
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation}
+Te1d1 n1ivx qaud1 hadox1 
+Təd̦ ñivx q‘au-d̦ ha-doχ.
+this man not.be-ind be.so-sup
+‘This is not a man.’
+# 38
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {negation}
+If pre1dox1 qaud1
+If p‘rə-doχ q‘au-d̦.
+s/he come-sup not.be-ind
+‘He did not come.’
+# 97
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation}
+If pre1ax1 qaud1
+If p‘rə-aχ q‘au-d̦.
+s/he come-dat/acc not.be-ind
+‘He did not come.’
+# 97
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation}
+If qaud1 pre1dox1
+If q‘au-d̦ p‘rə-doχ.
+s/he not.be-ind come-sup
+‘He did not come.’
+# 97
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {negation}
+If n1ivx txe1rptox1 qaud1.
+If ñivx t‘xәrp-toχ q‘au-d̦.
+s/he man forget-sup not.be-ind
+‘He did not forget the man.’
+# 279
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation}
+If n1ivx txe1rpax1 qaud1.
+If ñivx t‘xәrp-aχ q‘au-d̦.
+s/he man forget-dat/acc not.be-ind
+‘He did not forget the man.’
+# 279
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation}
+If n1ivx qaud1 txe1rptox1.
+If ñivx q‘au-d̦ t‘xәrp-toχ.
+s/he man not.be-ind forget-sup
+‘He did not forget the man.’
+# 279
+
+## COORDINATION 
+Source: a:41
+Vetted: s
+Judgment: g
+Phenomena: {coordination}
+If pre1ra itra had1
+If p‘rə-ra it-ra ha-d̦.
+s/he come-coord:3sg say-coord:3sg be.so-ind
+‘He came and said, (that’s) how it was.’
+
+Source: a:42
+Vetted: s
+Judgment: g
+Phenomena: {coordination}
+If hurtivra qora had1
+If hurt‘iv-ra q‘o-ra ha-d̦
+s/he sit-coord:3sg sleep-coord:3sg be.so-ind
+‘He sat down and (at once) fell asleep, (it) was so.’
+
+##### LAB 4
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, pronouns}
+N1i imn2 xud1.
+Ñi imŋ+xu-d̦.
+I they+kill-ind
+'I killed them.'
+# 162
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, pronouns}
+N1i xud1 imn2.
+Ñi xu-d̦+imŋ.
+I kill-ind+they
+'I killed them.'
+# 162
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, pronouns}
+Imn2 xud1n1i
+Imŋ+xu-d̦ ñi.
+they+kill-ind I
+'I killed them.'
+# 162
+
+Source: a:94
+Vetted: s
+Judgment: g
+Phenomena: {word order}
+If pord1.
+If por-d̦.
+s/he lie-ind
+'He lay down.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+Pord1 if. 
+Por-d̦ if.
+lie-ind s/he
+'He lay down.'
+
+Source: a:37
+Vetted: s
+Judgment: g
+Phenomena: {word order, pronoun}
+Te1d1̦ te1f
+Təd̦ təf 
+this house
+‘This is a house.’
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, pronoun}
+Te1f te1d1
+Təf təd̦
+House this
+‘This is a house.’
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {word order, pronoun}
+He1d1 te1f
+Həd̦ təf 
+that house
+‘That is a house.’
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order, pronoun}
+Te1f he1d1 
+Təf həd̦  
+house that
+‘That is a house.’
+
+Source: a:49
+Vetted: s
+Judgment: g
+Phenomena: {word order}
+N1ivx p‘re1d1.
+Ñivx p‘rə-d̦.
+man come-ind
+'The man came/has come.’
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+P‘re1d1 n1ivx 
+P‘rə-d̦ ñivx
+come-ind man 
+'The man came/has come.’
+
+Source: a:51
+Vetted: s
+Judgment: g
+Phenomena: {word order}
+O1la vid1.
+Ōla vi-d̦.
+child go-ind
+‘The child went.’
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+Vid1 o1la
+Vi-d̦ ōla
+go-ind child
+‘The child went.’
+
+Source: a:274
+Vetted: s
+Judgment: g
+Phenomena: {case}
+O1la n1ivxax1 polgud1.
+Ōla ñivx-aχ pol-gu-d̦.
+child man-dat/acc fall-caus-ind
+‘The child made the man fall.’
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {case}
+O1laax1 n1ivxax1 polgud1.
+Ōla-aχ ñivx-aχ pol-gu-d̦.
+child-dat/acc man-dat/acc fall-caus-ind
+‘The child made the man fall.’
+
+# 274
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {case}
+O1la n1ivxax1 imn2 r1e1prgud1.
+Ōla ñivx-aχ imŋ+řәpr-gu-d̦.
+child man-dat/acc they+bring-caus-ind
+‘The child made the man them.’
+
+# 274
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {case}
+O1laax1 n1ivxax1 imn2 r1e1prgud1.
+Ōla-aχ ñivx-aχ imŋ+řәpr-gu-d̦.
+child-dat/acc man-dat/acc they+bring-caus-ind
+‘The child made the man bring them.’
+
+# 274
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {case}
+O1laax1 n1ivxax1 imn2 r1e1prax1gud1.
+Ōla-aχ ñivx-aχ imŋ+řәpr-aχ-gu-d̦.
+child-dat/acc man-dat/acc they+bring-dat/acc-caus-ind
+‘The child made the man bring them.’
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {case}
+O1la imn2ax1 vigud1.
+Ōla imŋ-aχ vi-gu-d̦.
+child they-dat/acc go-caus-ind
+‘The child sent them away’
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {case}
+O1laax1 imn2ax1 vigud1
+Ōla-aχ imŋ-aχ vi-gu-d̦.
+child-dat/acc they-dat/acc go-caus-ind
+‘The child sent them away’
+
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tense}
+If porne1d1.
+If por-nə-d̦.
+s/he lie-fut-ind
+'He will lay down.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tense}
+Ifne1 pord1.
+If-nə por-d̦.
+s/he-fut lie-ind
+'He will lay down.'
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tense}
+If pord1ne1.
+If por-d̦-nə.
+s/he lie-ind-fut
+'He will lay down.'
+
+Source: a:71
+Vetted: s
+Judgment: g
+Phenomena: {tense}
+N1i pre1ne1d1.
+Ñi p‘rə-nə-d̦.
+I come-fut-ind
+‘I will come.’
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tense}
+N1ine1 pre1ne1d1.
+Ñi-nə p‘rə-nə-d̦.
+I-fut come-fut-ind
+‘I will come.’
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {tense}
+N1i pre1d1ne1.
+Ñi p‘rə-d̦-nə.
+I come-ind-fut
+‘I will come.’
+

@@ -1,0 +1,85 @@
+
+LING 567 
+LAB 8
+Language: Nivkh
+Author: Sabrina S.
+Date: March 07, 2024
+Source a: Nedjalkov, V.P, et al. A Syntax of the Nivkh Language: The Amur Dialect. John Benjamins Publishing Company, 2013.
+
+Goal:
+- Produce correct MT for at least first two sentences. 
+
+=====================
+TRANSLATION DECISIONS
+
+- dog: qan
+- sleep: q'o
+- chase: t'u (pursue, a:255)
+- car: t'u (sledge, a:170)
+- I: n1i
+- you: t1i
+- eat: n1 (a:3) Likely incorrect. Original form was i-ñ-d̦ (3sg-eat-IND). However, have not implemented 3sg prefix. 
+- not: q'au (a:97) As described in previous lab, the negated predicate must be SUPINE (described on a:96, where a verb with the dative/additive case suffix -roχ/-toχ/-doχ functions like a noun). 
+- think: e-ʁz/eyaz (a:213)
+- ask: jot1 (a:216) Possible forms are j-ot-/-ot-. Selected j-ot- because it is a prefix. Unsure what the dash in j-ot implies as there are no glossed examples. The gloss on 216 also has a variation of the infinitive marker ('t1'). Opted to keep the marker as 'd1' since it seems to just be morphological variation. The predicate takin
+- whether*1: -lu (a:216) -INDEF particle marked on the dependent predicate. Dependent predicate must be nominalized (by -t1- nominalization particle*2)
+	i.e.
+		If ñi orbot-ţ-lu+him-ijnə-d̦.
+        	s/he I work-nml-indef+know-des/inch-ind
+        	‘He wants to know (whether) I work.’
+- hungry: ke1r (a:182) Original is k‘ər. Glossed as be.hungry. 
+- know: heya (a:193) Original is -heʁ-. Chosen over alternative form j-heʁ-, which is a prefix. 
+- think (believe): eyaz (a:193) Original is e-ʁz-. Again, unsure of what the dash does. 
+- and: -xo/-yo (COM:PL) (a:58)
+	i.e.
+	Hoŋgur if it-ŋan pəx-xo topin-γo
+	in.that.way:3sg s/he say-conv:ant/sim cuckoo-com:pl jay-com:pl
+
+	ţevrq-xo sək k‘it-ţ-γu.
+	little.bird-com:pl all run.away-ind-pl
+	‘After he had said so the cuckoo, the jay and the little birds all flew away.’
+
+- bear: qot'r (a:262) I used this as a replacement for cat. Nivkh doesn't seem to have that word in their language. 
+*2 See verb-pc6. I added definiteness as a feature. However, I believe it should be a semantic feature. I also chose to define the definiteness feature on the verb. I'm unsure if this is correct. 
+*2 Nominalization looks morphologically the same as the finite marker (d1). They also must be mutually exclusive and have the same pc. Therefore, I did not implement nominalization as a separate l-rule. 
+
+==========
+MT RESULTS 
+- Sentence 1: The overgeneration is caused by the unrestricted case pc (noun-pc1). I created a zero marked rule (nom) so I'm not sure why it is still overgenerating. 
+ > 36 hypotheses
+ > Correct trans generated: Yes
+- Sentence 2: Again, the overgeneration is egregious because of the case pc but also because of the plural pc. 
+ > 216 hypotheses
+ > Correct trans generated: Yes
+- Sentence 3: The error message stated 'pron_rel is unknown in the semantic index.' I attempted several fixes including edits to lexicon.tdl and semi.vpm. Neither worked. 
+ > 0 hypotheses
+ > Correct trans generated: No
+- Sentence 4: I might've gotten better results if I simply disabled the case and aspect pcs. 
+ > 36 hypotheses 
+ > Correct trans generated: Yes
+- Sentence 5: The error message stated 'neg_rel is unknown in the semantic index.' I attempted to change the lexicon entry for my negative auxiliary. This did not change any results. 
+ > 0 hypotheses
+ > Correct trans generated: No
+- Sentence 6: Same issue as Sentence 3
+ > 0 hypotheses
+ > Correct trans generated: No
+- Sentence 7: I got several error messages. 'ask_v_rel', 'pron_rel', and 'know_v_rel' were all uncovered 
+ > 0 hypotheses
+ > Correct trans generated: No
+- Sentence 8: I looked through the MRSs and it seems the issue was '_and_coord_rel.' 
+ > 0 hypotheses
+ > Correct trans generated: No
+- Sentence 14: Nivkh does not have prepositions. Instead, spatial relations are conveyed through the locative case. I did not implement this in my grammar. 
+ > 0 hypotheses
+ > Correct trans generated: No
+
+====
+TSDB
+
+The results from tsdb were still middling. I had an overall coverage of 34.8% but only 23 positive items. My overgeneration metric was 0.0%. 
+
+Looking at my parses, I noticed that Sentence 6 had multiple readings. I suspect that this ambiguity is caused by the unconstrained / poorly defained coordination system (-xo, -xo). 
+
+The sentences utilizing case (32-40) were unfortunately not covered by this version of the grammar. 
+
+

@@ -1,0 +1,16 @@
+dog: qan
+sleep: q'o
+chase: t'u (pursue, pg 255)
+car: t'u (sledge, pg 170)
+I: n1i
+you: t1i
+eat: n1 (pg 3, NOTE MUST Implement 3sg)
+not: q'au (pg 97)
+think: e-ʁz/eyaz (pg 213)
+ask: jot1 (pg 216) original is j-ot. Unsure what this segmentation implies. The gloss on 216 also has a variation of the infinitive marker ('t1'). I chose to keep the marker as 'd1' since it seems to be a morphological difference. 
+whether: t1-lu (pg 216, INDEF affix)
+hungry: ke1r (pg 182)
+know: heya (pg 193) (og is -heʁ-) chosen over j-heʁ- which is a prefix 
+think: eyaz (pg 193) (e-ʁz-)
+and: -xo/-yo (COM:PL) (pg 58)
+bear: qot'r (pg 262) I used this as a replacement for cat. Nivkh doesn't seem to have that word in their language. 
